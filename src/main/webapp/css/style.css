@@ -1,0 +1,62 @@
+body {
+    min-height: 100vh;
+    background-color: #eee;
+    color: #000;
+    font: 16px "Roboto", sans-serif;
+}
+
+/* Header */
+
+#banner {
+    height: 150px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+#logo {
+    width: 75px;
+}
+
+#search-form {
+    width: 100%;
+}
+
+/* Cards */
+
+.card h2 {
+    font-size: 1.5em;
+}
+
+.card-img {
+    background-color: #ccc;
+}
+
+.product .card-img {
+    height: 200px;
+}
+
+.cart .card-img {
+    height: 100px;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+}
+
+/* Responsive layout - Header */
+
+@media all and (min-width: 768px) {
+    #banner {
+        height: 200px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    #search-form {
+        width: 50%;
+    }
+}
